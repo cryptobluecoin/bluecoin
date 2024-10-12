@@ -1,0 +1,7 @@
+[main]
+host = https://www.transifex.com
+
+[o:bluecoin:p:bluecoin:r:qt-translation-025x]
+file_filter = src/qt/locale/bluecoin_<lang>.xlf
+source_file = src/qt/locale/bluecoin_en.xlf
+source_lang = en

@@ -1,0 +1,33 @@
+# /etc/conf.d/bluecoind: config file for /etc/init.d/bluecoind
+
+# Config file location
+#BLUECOIND_CONFIGFILE="/etc/bluecoin/bluecoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BLUECOIND_USER)
+#BLUECOIND_PIDDIR="/var/run/bluecoind"
+
+# What filename to give the pidfile
+#BLUECOIND_PIDFILE="${BLUECOIND_PIDDIR}/bluecoind.pid"
+
+# Where to write bluecoind data (be mindful that the blockchain is large)
+#BLUECOIND_DATADIR="/var/lib/bluecoind"
+
+# User and group to own bluecoind process
+#BLUECOIND_USER="bluecoin"
+#BLUECOIND_GROUP="bluecoin"
+
+# Path to bluecoind executable
+#BLUECOIND_BIN="/usr/bin/bluecoind"
+
+# Nice value to run bluecoind under
+#BLUECOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+#BLUECOIND_OPTS=""
+
+# The timeout in seconds OpenRC will wait for bluecoind to terminate
+# after a SIGTERM has been raised.
+# Note that this will be mapped as argument to start-stop-daemon's
+# '--retry' option, which means you can specify a retry schedule
+# here. For more information see man 8 start-stop-daemon.
+BLUECOIND_SIGTERM_TIMEOUT=600
