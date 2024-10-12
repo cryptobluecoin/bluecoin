@@ -25,3 +25,7 @@ How to start?
 Download and install wallet.
 
 connect miner to mining-blue.com
+
+
+explorer: https://explorer.bluecoin.pro/
+website: coming soon
