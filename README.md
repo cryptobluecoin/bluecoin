@@ -30,4 +30,4 @@ connect miner to mining-blue.com
 explorer: https://explorer.bluecoin.pro/
 
 
-website: coming soon
+website: https://bluecoin.pro/
