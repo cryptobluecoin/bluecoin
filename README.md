@@ -5,7 +5,7 @@ Algorithm: Sha256d
 
 Ticker: BLU
 
-Block reward: 50
+Block reward: 50 BLU / Block
 
 Block halving: 210000 blocks
 
