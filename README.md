@@ -19,7 +19,7 @@ Target timespan: 4 minutes
 
 Transaction confirmations: 6 blocks
 
-
+=====================================
 
 
 How to start?
@@ -28,7 +28,7 @@ Download and install wallet.
 
 connect miner to mining-blue.com
 
-
+======================================
 
 explorer: https://explorer.bluecoin.pro/
 
